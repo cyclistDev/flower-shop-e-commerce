@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/assets/img/logo.png" />
+    <link rel="stylesheet" href="/src/styles/main.css" />
+
+    <title>Flower Shop | Shop page</title>
+  </head>
+  <body class="">
+    <!-- Navigation Component -->
+    <div id="navigation"></div>
+    <div class="flex flex-col items-center bg-gray-100 shadow-lg p-4 md:hidden">
+      <h2 class="text-2xl font-bold text-gray-900 p-4">
+        Special Valentine's Offer! ❤️
+      </h2>
+      <p class="text-gray-700 p-2 text-center">
+        Get the perfect flowers for your loved one.
+      </p>
+      <button
+        class="mt-4 px-4 py-2 bg-red-500 text-white rounded-lg shadow-md hover:bg-red-600"
+      >
+        <a href="/src/pages/Payment.html"> Order Now</a>
+      </button>
+    </div>
+    <div
+      class="hidden md:flex flex-col md:flex-row items-center bg-rose-400 rounded-2xl shadow-lg"
+    >
+      <!-- Image Section -->
+      <div class="w-full md:w-1/2">
+        <img
+          src="https://pbs.twimg.com/media/FKNfQs1XEAMMdO_?format=jpg&name=4096x4096"
+          alt="Valentine's Flowers"
+          class="w-full h-[80vh] object-cover"
+        />
+      </div>
+
+      <!-- Text Section -->
+      <div class="w-full md:w-1/2 p-6 h-[40vh]">
+        <h2 class="text-4xl font-bold text-gray-900 p-2">
+          It’s the Month of Love!
+        </h2>
+        <p class="text-gray-700 text-lg p-2">
+          The clock’s ticking! Place your Valentine’s Day order now.
+        </p>
+        <button
+          class="mt-4 ml-3 px-4 py-2 bg-black text-white rounded-lg shadow-md bg-yellow-400 hover:bg-purple-200"
+        >
+          <a href="/src/pages/Payment.html"> Send Flower</a>
+        </button>
+      </div>
+    </div>
+    <div class="p-6">
+      <h1 class="md:text-3xl font-bold">
+        <a href="/src/pages/Category.html">Shop by Category</a>
+      </h1>
+    </div>
+    <div class="flex flex-row w-[97%] h-auto mx-auto p-6 gap-6">
+      <div class="w-[23.5%] overflow-hidden">
+        <img
+          class="w-full h-30 md:h-56 object-cover"
+          src="/assets/img/best1.png"
+          alt="Bouquet"
+        />
+        <div class="pt-4">
+          <h2 class="font-bold text-gray-800 text-sm md:text-2xl">
+            <a href="/src/pages/Category.html">Valentine’s collect --></a>
+          </h2>
+        </div>
+      </div>
+      <div class="w-[23.5%] overflow-hidden">
+        <img
+          class="w-full h-30 md:h-56 object-cover"
+          src="https://m.media-amazon.com/images/I/71+EtpEhmmL._AC_UF1000,1000_QL80_.jpg"
+          alt="Bouquet"
+        />
+        <div class="pt-4">
+          <h2 class="font-bold text-gray-800 text-sm md:text-2xl">
+            <a href="/src/pages/Category.html"> Birthday--></a>
+          </h2>
+        </div>
+      </div>
+      <div class="w-[23.5%] overflow-hidden">
+        <img
+          class="w-full h-30 md:h-56 object-cover"
+          src="/assets/img/best3.png"
+          alt="Bouquet"
+        />
+        <div class="pt-4">
+          <h2 class="font-bold text-gray-800 text-sm md:text-2xl">
+            <a href="/src/pages/Category.html"> Wedding--></a>
+          </h2>
+        </div>
+      </div>
+      <div class="w-[23.5%] overflow-hidden">
+        <img
+          class="w-full h-30 md:h-56 object-cover"
+          src="/assets/img/best4.png"
+          alt="Bouquet"
+        />
+        <div class="pt-4">
+          <h2 class="font-bold text-gray-800 text-sm md:text-2xl">
+            <a href="/src/pages/Category.html"> Deliver --></a>
+          </h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center p-6 w-[80%] mx-auto mt-6">
+      <h1 class="text-lg md:text-2xl font-bold text-black">
+        A premier and family-owned luxury floral boutique in the heart of NYC.
+      </h1>
+    </div>
+
+    <div class="bg-purple-200 p-10">
+      <div class="container mx-auto">
+        <h1 class="text-3xl font-bold text-center mb-6">Best seller</h1>
+
+        <!-- Card Grid -->
+        <div
+          class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
+        >
+          <!-- Card -->
+          <div class="bg-white rounded-2xl overflow-hidden h-[400px] md:h-auto">
+            <div class="relative overflow-hidden">
+              <img
+                class="w-full h-[250px] object-cover md:h-auto rounded-lg transform transition duration-300 hover:rotate-6 hover:scale-110"
+                src="/assets/img/sell1.png"
+                alt="Product Image"
+              />
+            </div>
+            <div class="md:py-4 text-center">
+              <p class="md:text-lg text-sm font-semibold mt-2">
+                Designer's Choice Mix <br />
+                Winter A fresh design of <br />
+                novelty early winter <br />
+                blooms .
+              </p>
+            </div>
+            <div class="flex justify-center">
+              <button
+                class="bg-yellow-400 text-white font-bold mt-2 p-1 md:p-2 mb-5 w-20"
+              >
+                <a href="/src/pages/Payment.html"> $150</a>
+              </button>
+            </div>
+          </div>
+          <!-- Duplicate this card for more items -->
+          <div class="bg-white rounded-2xl overflow-hidden h-[400px] md:h-auto">
+            <div class="relative overflow-hidden">
+              <img
+                class="w-full h-[250px] object-cover md:h-auto rounded-lg transform transition duration-300 hover:rotate-6 hover:scale-110"
+                src="/assets/img/sell2.png"
+                alt="Product Image"
+              />
+            </div>
+            <div class="md:py-4">
+              <p class="md:text-lg text-sm font-semibold mt-2 text-center">
+                Designer's Choice <br />
+                Custom neutral-toned <br />
+                arrangement in a vase <br />
+                and bottom.
+              </p>
+            </div>
+            <div class="flex justify-center">
+              <button
+                class="bg-yellow-400 text-white font-bold mt-2 p-1 md:p-2 mb-5 w-20"
+              >
+                <a href="/src/pages/Payment.html"> $200</a>
+              </button>
+            </div>
+          </div>
+
+          <div class="bg-white rounded-2xl overflow-hidden h-[400px] md:h-auto">
+            <div class="relative overflow-hidden">
+              <img
+                class="w-full h-[250px] object-cover md:h-auto rounded-lg transform transition duration-300 hover:rotate-6 hover:scale-110"
+                src="/assets/img/sell3.png"
+                alt="Product Image"
+              />
+            </div>
+            <div class="md:py-4">
+              <p class="md:text-lg text-sm font-semibold mt-2 text-center">
+                Designer's Choice - <br />
+                Jewel Tones Custom <br />
+                jewel-toned <br />
+                arrangement in a vase.
+              </p>
+            </div>
+            <div class="flex justify-center">
+              <button
+                class="bg-yellow-400 text-white font-bold mt-2 p-1 md:p-2 mb-5 w-20"
+              >
+                <a href="/src/pages/Payment.html"> $175</a>
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="bg-white md:h-auto rounded-2xl overflow-hidden h-[400px] md:h-auto"
+          >
+            <div class="relative overflow-hidden">
+              <img
+                class="w-full h-[250px] object-cover md:h-auto rounded-lg transform transition duration-300 hover:rotate-6 hover:scale-110"
+                src="/assets/img/sell4.png"
+                alt="Product Image"
+              />
+            </div>
+            <div class="md:py-4">
+              <p class="md:text-lg text-sm font-semibold mt-2 text-center">
+                Designer's Choice - <br />
+                Jewel Tones Custom <br />
+                jewel-toned <br />
+                beutifull
+              </p>
+            </div>
+            <div class="flex justify-center">
+              <button
+                class="bg-yellow-400 text-white font-bold mt-2 p-1 md:p-2 mb-5 w-20"
+              >
+                <a href="/src/pages/Payment.html"> $180</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- discount -->
+    <div class="w-[80%] h-10 bg-gray-200 m-6 mx-auto p-2 shadow-lg">
+      <h1 class="text-center">Got discount with us with 50%</h1>
+    </div>
+
+    <!-- Card -->
+    <div class="flex justify-around mx-auto w-[95%] p-5">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 xs:grid-cols-2">
+        <!-- care1 -->
+        <div class="max-w-xs bg-white shadow-lg rounded-2xl overflow-hidden">
+          <img
+            class="w-full h-60 object-cover"
+            src="/assets/img/card1.png"
+            alt="Bouquet"
+          />
+          <div class="p-4">
+            <h2 class="font-bold text-gray-800 text-lg">Fairy</h2>
+            <p class="text-gray-600 text-sm mt-1">
+              Sprinkling a little fairy dust on my timeline and more than that.
+            </p>
+            <div class="flex justify-between items-center mt-3">
+              <span class="text-red-500 font-bold text-lg">$34.30</span>
+              <button
+                class="bg-yellow-400 text-black px-3 py-1 rounded-lg shadow hover:bg-yellow-500"
+              >
+                <a href="/src/pages/Payment.html">Add to cart</a>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- card2 -->
+        <div class="max-w-xs bg-white shadow-lg rounded-2xl overflow-hidden">
+          <img
+            class="w-full h-60 object-cover"
+            src="/assets/img/card2.png"
+            alt="Bouquet"
+          />
+          <div class="p-4">
+            <h2 class="font-bold text-gray-800 text-lg">Joe Bouquet</h2>
+            <p class="text-gray-600 text-sm mt-1">
+              Let your life be like a wildflower, growing freely in the beauty
+              and joy of each day.
+            </p>
+            <div class="flex justify-between items-center mt-3">
+              <span class="text-red-500 font-bold text-lg">$40.50</span>
+              <button
+                class="bg-yellow-400 text-black px-3 py-1 rounded-lg shadow hover:bg-yellow-500"
+              >
+                <a href="/src/pages/Payment.html">Add to cart</a>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- card3 -->
+        <div class="max-w-xs bg-white shadow-lg rounded-2xl overflow-hidden">
+          <img
+            class="w-full h-60 object-cover"
+            src="/assets/img/card3.png"
+            alt="Bouquet"
+          />
+          <div class="p-4">
+            <h2 class="font-bold text-gray-800 text-lg">Roxanne Bouquetsit</h2>
+            <p class="text-gray-600 text-sm mt-1">
+              Preserving nature's beauty, one bloom at a time.
+            </p>
+            <div class="flex justify-between items-center mt-3">
+              <span class="text-red-500 font-bold text-lg">$38.00</span>
+              <button
+                class="bg-yellow-400 text-black px-3 py-1 rounded-lg shadow hover:bg-yellow-500"
+              >
+                <a href="/src/pages/Payment.html">Add to cart</a>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- card4 -->
+        <div class="max-w-xs bg-white shadow-lg rounded-2xl overflow-hidden">
+          <img
+            class="w-full h-60 object-cover"
+            src="/assets/img/card4.png"
+            alt="Bouquet"
+          />
+          <div class="p-4">
+            <h2 class="font-bold text-gray-800 text-lg">Emma</h2>
+            <p class="text-gray-600 text-sm mt-1">
+              A symphony of blooms, harmonizing in beauty.
+            </p>
+            <div class="flex justify-between items-center mt-3">
+              <span class="text-red-500 font-bold text-lg">$29.90</span>
+              <button
+                class="bg-yellow-400 text-black px-3 py-1 rounded-lg shadow hover:bg-yellow-500"
+              >
+                <a href="/src/pages/Payment.html">Add to cart</a>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- card5 -->
+        <div class="max-w-xs bg-white shadow-lg rounded-2xl overflow-hidden">
+          <img
+            class="w-full h-60 object-cover"
+            src="/assets/img/card5.png"
+            alt="Bouquet"
+          />
+          <div class="p-4">
+            <h2 class="font-bold text-gray-800 text-lg">Juslin</h2>
+            <p class="text-gray-600 text-sm mt-1">
+              Celebrate life's moments with the Justine bouquet in the beauty
+              and joy of each day.
+            </p>
+            <div class="flex justify-between items-center mt-3">
+              <span class="text-red-500 font-bold text-lg">$43.50</span>
+              <button
+                class="bg-yellow-400 text-black px-3 py-1 rounded-lg shadow hover:bg-yellow-500"
+              >
+                <a href="/src/pages/Payment.html">Add to cart</a>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- card6 -->
+        <div class="max-w-xs bg-white shadow-lg rounded-2xl overflow-hidden">
+          <img
+            class="w-full h-60 object-cover"
+            src="/assets/img/card6.png"
+            alt="Bouquet"
+          />
+
+          <div class="p-4">
+            <h2 class="font-bold text-gray-800 text-lg">Merlin</h2>
+            <p class="text-gray-600 text-sm mt-1">
+              Bringing the magic of Merlin to your home in the beauty and joy of
+              each day.
+            </p>
+            <div class="flex justify-between items-center mt-3">
+              <span class="text-red-500 font-bold text-lg">$37.00</span>
+              <button
+                class="bg-yellow-400 text-black px-3 py-1 rounded-lg shadow hover:bg-yellow-500"
+              >
+                <a href="/src/pages/Payment.html">Add to cart</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- second -->
+
+    <!-- Card -->
+
+    <div class="w-[80%] h-10 bg-gray-200 m-6 mx-auto p-2 shadow-lg">
+      <h1 class="text-center">Got discount with us with 50%</h1>
+    </div>
+
+    <!-- Card -->
+    <div class="flex justify-around mx-auto w-[95%] p-5">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 xs:grid-cols-2">
+        <!-- care1 -->
+        <div class="max-w-xs bg-white shadow-lg rounded-2xl overflow-hidden">
+          <img
+            class="w-full h-60 object-cover"
+            src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQVgEIW5ALLBFgNK3ReG-CzYgSnP99AbI8Dy5-CkuZob3CYGskg"
+            alt="Bouquet"
+          />
+          <div class="p-4">
+            <h2 class="font-bold text-gray-800 text-lg">Amouranth</h2>
+            <p class="text-gray-600 text-sm mt-1">
+              Sprinkling a little fairy dust on my timeline in the beauty and
+              joy of each day.
+            </p>
+            <div class="flex justify-between items-center mt-3">
+              <span class="text-red-500 font-bold text-lg">$34.30</span>
+              <button
+                class="bg-yellow-400 text-black px-3 py-1 rounded-lg shadow hover:bg-yellow-500"
+              >
+                <a href="/src/pages/Payment.html">Add to cart</a>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- card2 -->
+        <div class="max-w-xs bg-white shadow-lg rounded-2xl overflow-hidden">
+          <img
+            class="w-full h-60 object-cover"
+            src="https://www.scottsflowersnyc.com/cdn/shop/files/SugarfinaVDayBentoBoxTHB1.jpg?v=1736968434&width=533"
+            alt="Bouquet"
+          />
+          <div class="p-4">
+            <h2 class="font-bold text-gray-800 text-lg">Dahlia</h2>
+            <p class="text-gray-600 text-sm mt-1">
+              Let your life be like a wildflower, growing freely in the beauty
+              and joy of each day.
+            </p>
+            <div class="flex justify-between items-center mt-3">
+              <span class="text-red-500 font-bold text-lg">$40.50</span>
+              <button
+                class="bg-yellow-400 text-black px-3 py-1 rounded-lg shadow hover:bg-yellow-500"
+              >
+                <a href="/src/pages/Payment.html">Add to cart</a>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- card3 -->
+        <div class="max-w-xs bg-white shadow-lg rounded-2xl overflow-hidden">
+          <img
+            class="w-full h-60 object-cover"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI-91YU3SZ6VKHyjtGFTCuPJoEP87S7nv-EJeE8MyEnxBTx-yG"
+            alt="Bouquet"
+          />
+          <div class="p-4">
+            <h2 class="font-bold text-gray-800 text-lg">spider lily</h2>
+            <p class="text-gray-600 text-sm mt-1">
+              Preserving nature's beauty, one bloom at in the beauty and joy of
+              each day.
+            </p>
+            <div class="flex justify-between items-center mt-3">
+              <span class="text-red-500 font-bold text-lg">$38.00</span>
+              <button
+                class="bg-yellow-400 text-black px-3 py-1 rounded-lg shadow hover:bg-yellow-500"
+              >
+                <a href="/src/pages/Payment.html">Add to cart</a>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- card4 -->
+        <div class="max-w-xs bg-white shadow-lg rounded-2xl overflow-hidden">
+          <img
+            class="w-full h-60 object-cover"
+            src="https://www.scottsflowersnyc.com/cdn/shop/files/PinkSweetheart2024THB1.jpg?v=1705675638&width=533"
+            alt="Bouquet"
+          />
+          <div class="p-4">
+            <h2 class="font-bold text-gray-800 text-lg">Premium Valentine's</h2>
+            <p class="text-gray-600 text-sm mt-1">
+              A symphony of blooms, harmonizing in in the beauty and joy of each
+              day.
+            </p>
+            <div class="flex justify-between items-center mt-3">
+              <span class="text-red-500 font-bold text-lg">$29.90</span>
+              <button
+                class="bg-yellow-400 text-black px-3 py-1 rounded-lg shadow hover:bg-yellow-500"
+              >
+                <a href="/src/pages/Payment.html">Add to cart</a>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- card5 -->
+        <div class="max-w-xs bg-white shadow-lg rounded-2xl overflow-hidden">
+          <img
+            class="w-full h-60 object-cover"
+            src="https://png.pngtree.com/thumb_back/fh260/background/20241210/pngtree-chic-floral-arrangement-on-circular-stands-image_16745149.jpg"
+            alt="Bouquet"
+          />
+          <div class="p-4">
+            <h2 class="font-bold text-gray-800 text-lg">Chic Arrangements</h2>
+            <p class="text-gray-600 text-sm mt-1">
+              Celebrate life's moments with the Justine bouquetin the beauty and
+              joy of each day.
+            </p>
+            <div class="flex justify-between items-center mt-3">
+              <span class="text-red-500 font-bold text-lg">$43.50</span>
+              <button
+                class="bg-yellow-400 text-black px-3 py-1 rounded-lg shadow hover:bg-yellow-500"
+              >
+                <a href="/src/pages/Payment.html">Add to cart</a>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- card6 -->
+        <div class="max-w-xs bg-white shadow-lg rounded-2xl overflow-hidden">
+          <img
+            class="w-full h-60 object-cover"
+            src="https://www.thefloralsociety.com/cdn/shop/articles/DBEF7810-5998-4B12-B04F-FAF9BF00A9FD_500x.jpg?v=1695152325"
+            alt="Bouquet"
+          />
+
+          <div class="p-4">
+            <h2 class="font-bold text-gray-800 text-lg">Merlin</h2>
+            <p class="text-gray-600 text-sm mt-1">
+              Bringing the magic of Merlin to your in the beauty and joy of each
+              day.
+            </p>
+            <div class="flex justify-between items-center mt-3">
+              <span class="text-red-500 font-bold text-lg">$37.00</span>
+              <button
+                class="bg-yellow-400 text-black px-3 py-1 rounded-lg shadow hover:bg-yellow-500"
+              >
+                <a href="/src/pages/Payment.html">Add to cart</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="w-[80%] h-10 bg-gray-200 m-6 mx-auto p-2 shadow-lg">
+      <h1 class="text-center">Got discount with us with 50%</h1>
+    </div>
+
+    <!-- Card -->
+    <div class="flex justify-around mx-auto w-[95%] p-5">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 xs:grid-cols-2">
+        <!-- care1 -->
+        <div class="max-w-xs bg-white shadow-lg rounded-2xl overflow-hidden">
+          <img
+            class="w-full h-60 object-cover"
+            src="https://m.media-amazon.com/images/I/61V+oXSsOfL.jpg"
+            alt="Bouquet"
+          />
+          <div class="p-4">
+            <h2 class="font-bold text-gray-800 text-lg">Resin Pro Soy Wax</h2>
+            <p class="text-gray-600 text-sm mt-1">
+              Sprinkling a little fairy dust on my in the beauty and joy of each
+              day.
+            </p>
+            <div class="flex justify-between items-center mt-3">
+              <span class="text-red-500 font-bold text-lg">$34.30</span>
+              <button
+                class="bg-yellow-400 text-black px-3 py-1 rounded-lg shadow hover:bg-yellow-500"
+              >
+                <a href="/src/pages/Payment.html">Add to cart</a>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- card2 -->
+        <div class="max-w-xs bg-white shadow-lg rounded-2xl overflow-hidden">
+          <img
+            class="w-full h-60 object-cover"
+            src="https://www.bloomdenver.com/cdn/shop/files/BloomByAnuschka-5.jpg?crop=center&height=2200&v=1736297900&width=2000"
+            alt="Bouquet"
+          />
+          <div class="p-4">
+            <h2 class="font-bold text-gray-800 text-lg">Denver Florist</h2>
+            <p class="text-gray-600 text-sm mt-1">
+              Let your life be like a wildflower, growing freely in the beauty
+              and joy of each day.
+            </p>
+            <div class="flex justify-between items-center mt-3">
+              <span class="text-red-500 font-bold text-lg">$40.50</span>
+              <button
+                class="bg-yellow-400 text-black px-3 py-1 rounded-lg shadow hover:bg-yellow-500"
+              >
+                <a href="/src/pages/Payment.html">Add to cart</a>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- card3 -->
+        <div class="max-w-xs bg-white shadow-lg rounded-2xl overflow-hidden">
+          <img
+            class="w-full h-60 object-cover"
+            src="https://i.etsystatic.com/15146696/r/il/32c203/5625735498/il_570xN.5625735498_3d4d.jpg"
+            alt="Bouquet"
+          />
+          <div class="p-4">
+            <h2 class="font-bold text-gray-800 text-lg">Wondrous prettyyyyy</h2>
+            <p class="text-gray-600 text-sm mt-1">
+              Preserving nature's beauty, one bloom at ain the beauty and joy of
+              each day.
+            </p>
+            <div class="flex justify-between items-center mt-3">
+              <span class="text-red-500 font-bold text-lg">$38.00</span>
+              <button
+                class="bg-yellow-400 text-black px-3 py-1 rounded-lg shadow hover:bg-yellow-500"
+              >
+                <a href="/src/pages/Payment.html">Add to cart</a>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- card4 -->
+        <div class="max-w-xs bg-white shadow-lg rounded-2xl overflow-hidden">
+          <img
+            class="w-full h-60 object-cover"
+            src="https://i.etsystatic.com/44553254/r/il/9b0399/5880471284/il_794xN.5880471284_ckt6.jpg"
+            alt="Bouquet"
+          />
+          <div class="p-4">
+            <h2 class="font-bold text-gray-800 text-lg">Baby Rabbits Floral</h2>
+            <p class="text-gray-600 text-sm mt-1">
+              A symphony of blooms, harmonizing in in the beauty and joy of each
+              day.
+            </p>
+            <div class="flex justify-between items-center mt-3">
+              <span class="text-red-500 font-bold text-lg">$29.90</span>
+              <button
+                class="bg-yellow-400 text-black px-3 py-1 rounded-lg shadow hover:bg-yellow-500"
+              >
+                <a href="/src/pages/Payment.html">Add to cart</a>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- card5 -->
+        <div class="max-w-xs bg-white shadow-lg rounded-2xl overflow-hidden">
+          <img
+            class="w-full h-60 object-cover"
+            src="https://i.etsystatic.com/44553254/r/il/469028/6039333269/il_794xN.6039333269_lblz.jpg"
+            alt="Bouquet"
+          />
+          <div class="p-4">
+            <h2 class="font-bold text-gray-800 text-lg">Charming Floral</h2>
+            <p class="text-gray-600 text-sm mt-1">
+              Celebrate life's moments with the Justine bouquet in the beauty
+              and joy of each day.
+            </p>
+            <div class="flex justify-between items-center mt-3">
+              <span class="text-red-500 font-bold text-lg">$43.50</span>
+              <button
+                class="bg-yellow-400 text-black px-3 py-1 rounded-lg shadow hover:bg-yellow-500"
+              >
+                <a href="/src/pages/Payment.html">Add to cart</a>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- card6 -->
+        <div class="max-w-xs bg-white shadow-lg rounded-2xl overflow-hidden">
+          <img
+            class="w-full h-60 object-cover"
+            src="https://i.etsystatic.com/41696272/r/il/ba4e2a/6022511773/il_794xN.6022511773_jupz.jpg"
+            alt="Bouquet"
+          />
+
+          <div class="p-4">
+            <h2 class="font-bold text-gray-800 text-lg">Decorative Birthday</h2>
+            <p class="text-gray-600 text-sm mt-1">
+              Bringing the magic of Merlin to your in the beauty and joy of each
+              day.
+            </p>
+            <div class="flex justify-between items-center mt-3">
+              <span class="text-red-500 font-bold text-lg">$37.00</span>
+              <button
+                class="bg-yellow-400 text-black px-3 py-1 rounded-lg shadow hover:bg-yellow-500"
+              >
+                <a href="/src/pages/Payment.html">Add to cart</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="hidden md:flex justify-center items-center p-[50px] bg-pink-300"
+    >
+      <div class="bg-white text-center shadow-lg p-10 w-[70%] h-[90%]">
+        <h1 class="md:text-3xl text-lg font-bold mb-6">OPENING TIME</h1>
+        <div class="text-left">
+          <p class="mb-2">
+            <span class="font-bold">Monday:</span> 9:00AM - 5:00PM
+          </p>
+          <p class="mb-2">
+            <span class="font-bold">Tuesday - Friday:</span> 9:00AM - 6:00PM
+          </p>
+          <p class="mb-2">
+            <span class="font-bold">Saturdays:</span> Pre-booked orders and
+            appointments only
+          </p>
+          <p class="mb-2"><span class="font-bold">Sunday:</span> Closed</p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="mx-auto md:hidden bg-rose-400 text-center text-white shadow-lg p-10 w-[80%] h-[90%]"
+    >
+      <h1 class="md:text-3xl text-lg font-bold mb-6">OPENING TIME</h1>
+      <div class="text-left">
+        <p class="mb-2">
+          <span class="font-bold">Monday:</span> 9:00AM - 5:00PM
+        </p>
+        <p class="mb-2">
+          <span class="font-bold">Tuesday - Friday:</span> 9:00AM - 6:00PM
+        </p>
+        <p class="mb-2">
+          <span class="font-bold">Saturdays:</span> Pre-booked orders and
+          appointments only
+        </p>
+        <p class="mb-2"><span class="font-bold">Sunday:</span> Closed</p>
+      </div>
+    </div>
+
+    <!-- Footer Component -->
+    <div id="footer"></div>
+
+    <script type="module" src="/src/scripts/main.js"></script>
+  </body>
+</html>
