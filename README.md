@@ -1,54 +1,60 @@
-# 🌸✨🌷 Cute Flower Shop Website 🌷✨🌸
+# June Flowers 🌸
 
-## 📝💖 Description
-🌼 Welcome to the most adorable online flower shop! 🌼
-🎀 Here, you can find the perfect bouquet based on your budget, favorite colors, and special occasions! Whether it's for your bestie, your crush 💕, or just to treat yourself (because you deserve it! 😘), we’ve got you covered! 🎁💐
+Welcome to June Flowers, a responsive, multi-page flower shop website for browsing bouquets, flower categories, and seasonal inspiration. The project is built with HTML, Tailwind CSS, JavaScript, and Vite.
 
-## 🌟✨ Features ✨🌟
-- **🌺 Gorgeous Flower** – Browse through the cutest fresh flowers ever! 🌻🌹
-- **🛍 Online Ordering** – Shop like a pro, from anywhere! 🛒💻
-- **🎨 Custom Bouquets** – Mix & match flowers to create the most magical bouquet! ✨🌷
-- **🎁 Fancy Gift Wrapping** – Make it EXTRA special! 🎀💝
-- **🚀 Lightning Delivery** – Same-day delivery for your last-minute gifts! 🏎💨
-- **⭐ Sweet Reviews** – Check out what other flower lovers are saying! 📝💬
-- **🔒 Safe & Secure** – No worries, just happy shopping! 🛡💳
+Our goal is to make exploring flowers online feel cheerful, simple, and welcoming.
 
-## 🎯🌈 Our Mission
-💐 Bringing happiness through flowers! We want to make online flower shopping **super fun, easy, and full of love**! 😍🌷
+## What you can explore
 
-## 🛠💡 Technologies Used
-- **🎨 Figma** – `For super cute designs!` 🎀
-- **📌 Trello** – `For staying organized like a boss!` 📅💡
-- **🌐 HTML** – `The backbone of our adorable shop!` 🏗
-- **🎨 CSS (Tailwind CSS)** – `For making things look pretty!` 💅✨
-- **⚡ JavaScript** – `For cool interactive magic!` 🪄🖥
-- **🐙 GitHub** – `For keeping our code safe & sound!` 🔒📂
+- Flower and bouquet showcases, categories, best sellers, and promotions.
+- Shop, about, blog, FAQ, and contact pages.
+- Responsive navigation for smaller screens.
+- Contact and payment form validation demos.
 
-## 🚀💖 Getting Started
-### 📥 Clone the Repository (So you can have all the cuteness!)
+> **Demo note:** This is a frontend project. Contact messages are not sent to a server, and the payment form does not process real payments. Submitting the payment demo takes you to a confirmation page.
+
+## Pages in the garden
+
+| Page | Path |
+| --- | --- |
+| Home | `/` |
+| Shop | `/src/pages/Shop.html` |
+| Categories | `/src/pages/Category.html` |
+| Blog | `/src/pages/Blog.html` |
+| FAQ | `/src/pages/FAQ.html` |
+| Contact | `/src/pages/Contact.html` |
+| About | `/src/pages/About.html` |
+| Product details | `/src/pages/Detail.html` |
+| Payment demo | `/src/pages/Payment.html` |
+| Payment confirmation | `/src/pages/PaymentSuccess.html` |
+| Promotions | `/src/pages/promotion.html` |
+
+## Get started
+
+You’ll need [Node.js](https://nodejs.org/) 18 or later and npm. Then clone the repository, install the dependencies, and start the development server:
+
 ```sh
-git clone https://github.com/your-username/flower-shop.git
-```
-### 📂 Navigate to the Project Folder (Step inside the magic garden!)
-```sh
-cd flower-shop
-```
-### 🖥 Open in VS Code (Let's get coding, cutie! 💻✨)
-```sh
-code .
-```
-### 🌍 Run the Website
-Install dependencies and start the Vite development server:
-```sh
+git clone https://github.com/cyclistDev/flower-shop-e-commerce.git
+cd flower-shop-e-commerce
 npm install
 npm run dev
 ```
-Open the local URL printed by Vite to browse the site. Use the navigation links
-to open each page.
 
-## 💐 Special Thanks & Hugs! 🤗
-- **🌀 Tailwind CSS** – `For making things look fabulous!` ✨
-- **📚 W3Schools & ChatGPT** – `For always being there when we need help!` 📖💡
-- **🌷 Inspired by**: [Flower Shop Website](https://xtratheme.com/elementor/flower-shop/)
+Vite prints the local URL in the terminal and opens it in your browser. Use the site navigation to explore the other pages.
 
-🎀💖 Thanks for visiting! Keep blooming & spreading love! 💖🎀
+## Available scripts
+
+```sh
+npm run dev      # Start the Vite development server
+npm run build    # Build the site into dist/
+npm run preview  # Preview the production build locally
+```
+
+## Built with 💐
+
+- HTML
+- Tailwind CSS
+- JavaScript (ES modules)
+- Vite
+
+Inspired by [Flower Shop by Xtra](https://xtratheme.com/elementor/flower-shop/).
